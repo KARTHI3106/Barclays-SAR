@@ -223,11 +223,8 @@ All 43 tests pass with zero failures.
 | ---------------------------------------------------- | ------------------------------------------------------------- |
 | [SETUP.md](SETUP.md)                                 | Complete setup guide (system reqs, model config, concurrency) |
 | [how_to_run.md](how_to_run.md)                       | Step-by-step local setup and demo guide                       |
-| [architecture_diagrams.md](architecture_diagrams.md) | System architecture in Mermaid + Eraser.io format             |
 | [.env.example](.env.example)                         | Environment variable template                                 |
 
 ---
 
-## License
 
-This project is built for the Barclays hackathon. All code is original.
