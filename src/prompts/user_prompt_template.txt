@@ -1,0 +1,44 @@
+Generate a Suspicious Transaction Report (STR) narrative for the following case:
+
+CASE ID: {case_id}
+ALERT DATE: {alert_date}
+ALERT REASON: {alert_reason}
+
+CUSTOMER INFORMATION:
+- Name: {customer_name}
+- Account Number: {account_number}
+- Occupation: {occupation}
+- KYC Risk Rating: {risk_rating}
+- Account Open Date: {account_open_date}
+
+FINANCIAL PROFILE:
+- Currency: {currency}
+- Expected Monthly Volume: {expected_volume:,.2f}
+- Declared Annual Income: {declared_income:,.2f}
+
+TRANSACTION SUMMARY:
+- Total Transactions: {transaction_count}
+- Total Volume: {currency} {total_volume:,.2f}
+- Total Credits: {currency} {total_credits:,.2f} ({credit_count} transactions)
+- Total Debits: {currency} {total_debits:,.2f} ({debit_count} transactions)
+- Average Amount: {currency} {avg_amount:,.2f}
+- Largest Transaction: {currency} {max_amount:,.2f}
+- Date Range: {date_range_start} to {date_range_end} ({date_range_days} days)
+- Transaction Types: {transaction_types}
+
+SUSPICIOUS PATTERNS DETECTED:
+{patterns}
+
+CRIME TYPOLOGY CLASSIFICATION: {typology}
+RISK SCORE: {risk_score}/100
+
+INVESTIGATION NOTES: {investigation_notes}
+
+REGULATORY CONTEXT:
+{regulatory_context}
+
+REFERENCE TEMPLATE:
+{template_reference}
+
+INSTRUCTIONS:
+Write the complete STR narrative following the 5-section format. Use the exact data provided above. Reference specific PMLA sections and RBI guidelines. Be factual and precise. Include all quantitative evidence.

@@ -1,0 +1,25 @@
+SUSPICIOUS TRANSACTION REPORT - CASH-INTENSIVE BUSINESS
+
+I. SUMMARY OF SUSPICIOUS ACTIVITY
+The account holder, operating a [BUSINESS TYPE], exhibited cash transaction patterns significantly exceeding expected business volumes. Total cash deposits of INR [AMOUNT] over [PERIOD] represent a [X]x deviation from declared business income.
+
+II. ACCOUNT AND CUSTOMER INFORMATION
+[Customer details]
+
+III. DESCRIPTION OF SUSPICIOUS ACTIVITY
+Cash transaction patterns observed:
+- Total cash deposits: INR [AMOUNT] over [PERIOD]
+- Number of cash transactions: [COUNT]
+- Average cash deposit: INR [AVG_AMOUNT]
+- Pattern: [PATTERN_DESCRIPTION]
+- Season/timing anomalies: [SEASONALITY]
+
+IV. EXPLANATION OF SUSPICION
+Cash-intensive businesses are inherently higher-risk for money laundering. The observed patterns exceed reasonable business expectations:
+- Cash volumes [X]x above industry benchmarks for declared business type
+- Deposit patterns inconsistent with business operating hours/seasons
+- No corresponding increase in business infrastructure or employment
+- Cash deposits followed by immediate electronic transfers
+
+V. CONCLUSION AND RECOMMENDATION
+STR filing recommended under PMLA Section 12. On-site inspection of business premises recommended. Cross-reference with GST filings and income tax returns. Enhanced cash transaction monitoring threshold to be applied.

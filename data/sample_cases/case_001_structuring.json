@@ -1,0 +1,110 @@
+{
+  "case_id": "STR-2026-001",
+  "customer": {
+    "name": "Priya Sharma",
+    "account_number": "SB-2024-7891011",
+    "kyc_risk_rating": "Medium",
+    "occupation": "Retail Shop Owner",
+    "account_open_date": "2023-03-15",
+    "expected_monthly_volume": 300000,
+    "declared_income": 600000,
+    "address": "45, MG Road, Bengaluru, Karnataka",
+    "pan_number": "BFXPS1234K"
+  },
+  "transactions": [
+    {
+      "date": "2026-01-05",
+      "amount": 950000,
+      "currency": "INR",
+      "type": "Cash Deposit",
+      "originator": "Self",
+      "beneficiary": "Priya Sharma",
+      "description": "Cash deposit at branch"
+    },
+    {
+      "date": "2026-01-07",
+      "amount": 880000,
+      "currency": "INR",
+      "type": "Cash Deposit",
+      "originator": "Self",
+      "beneficiary": "Priya Sharma",
+      "description": "Cash deposit at branch"
+    },
+    {
+      "date": "2026-01-09",
+      "amount": 920000,
+      "currency": "INR",
+      "type": "Cash Deposit",
+      "originator": "Self",
+      "beneficiary": "Priya Sharma",
+      "description": "Cash deposit at ATM"
+    },
+    {
+      "date": "2026-01-11",
+      "amount": 990000,
+      "currency": "INR",
+      "type": "Cash Deposit",
+      "originator": "Self",
+      "beneficiary": "Priya Sharma",
+      "description": "Cash deposit at branch"
+    },
+    {
+      "date": "2026-01-13",
+      "amount": 870000,
+      "currency": "INR",
+      "type": "Cash Deposit",
+      "originator": "Self",
+      "beneficiary": "Priya Sharma",
+      "description": "Cash deposit at branch"
+    },
+    {
+      "date": "2026-01-15",
+      "amount": 960000,
+      "currency": "INR",
+      "type": "Cash Deposit",
+      "originator": "Self",
+      "beneficiary": "Priya Sharma",
+      "description": "Cash deposit at ATM"
+    },
+    {
+      "date": "2026-01-17",
+      "amount": 940000,
+      "currency": "INR",
+      "type": "Cash Deposit",
+      "originator": "Self",
+      "beneficiary": "Priya Sharma",
+      "description": "Cash deposit at branch"
+    },
+    {
+      "date": "2026-01-19",
+      "amount": 850000,
+      "currency": "INR",
+      "type": "Cash Deposit",
+      "originator": "Self",
+      "beneficiary": "Priya Sharma",
+      "description": "Cash deposit at branch"
+    },
+    {
+      "date": "2026-01-20",
+      "amount": -5500000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Priya Sharma",
+      "beneficiary": "Sunrise Trading LLC",
+      "description": "Payment for goods"
+    },
+    {
+      "date": "2026-01-21",
+      "amount": 980000,
+      "currency": "INR",
+      "type": "Cash Deposit",
+      "originator": "Self",
+      "beneficiary": "Priya Sharma",
+      "description": "Cash deposit at branch"
+    }
+  ],
+  "alert_reason": "Multiple cash deposits just below INR 10,00,000 reporting threshold over 16 days. Total cash deposits INR 73,40,000 against expected monthly volume of INR 3,00,000.",
+  "investigation_notes": "Customer claims deposits are from retail shop sales. However, shop size and location do not support this volume. GST returns show monthly turnover of INR 2,50,000.",
+  "alert_date": "2026-01-22",
+  "assigned_analyst": "analyst_01"
+}

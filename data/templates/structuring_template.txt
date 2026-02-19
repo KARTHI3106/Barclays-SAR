@@ -1,0 +1,23 @@
+SUSPICIOUS TRANSACTION REPORT - STRUCTURING / SMURFING
+
+I. SUMMARY OF SUSPICIOUS ACTIVITY
+The account holder has been identified engaging in structured deposits designed to avoid the INR 10,00,000 cash transaction reporting threshold. Over [PERIOD], a total of [COUNT] deposits were made, each ranging from INR [MIN_AMOUNT] to INR [MAX_AMOUNT], totaling INR [TOTAL_AMOUNT]. The pattern of deposits is inconsistent with the account holder's declared income of INR [DECLARED_INCOME] and expected monthly transaction volume of INR [EXPECTED_VOLUME].
+
+II. ACCOUNT AND CUSTOMER INFORMATION
+[Customer details including name, account number, occupation, KYC rating]
+
+III. DESCRIPTION OF SUSPICIOUS ACTIVITY
+The following structured deposits were identified:
+- [TRANSACTION_LIST]
+- Pattern: Multiple deposits just below INR 10,00,000 threshold
+- Frequency: [FREQUENCY] deposits over [DAYS] days
+- Total: INR [TOTAL] across [COUNT] transactions
+
+IV. EXPLANATION OF SUSPICION
+The deposit pattern is consistent with structuring/smurfing activity as defined under PMLA guidelines. The deliberate fragmentation of deposits below the INR 10,00,000 threshold suggests intentional avoidance of reporting requirements under Section 12 of PMLA, 2002. This is further supported by:
+- Volume exceeding expected monthly activity by [RATIO]x
+- Round-number deposits suggesting premeditated structuring
+- Timing pattern consistent with deliberate threshold avoidance
+
+V. CONCLUSION AND RECOMMENDATION
+Based on the identified pattern, this activity warrants immediate filing of an STR with FIU-IND under Section 12 of PMLA, 2002. Enhanced due diligence and ongoing monitoring are recommended for this account. The 7-day filing deadline under RBI guidelines must be adhered to.

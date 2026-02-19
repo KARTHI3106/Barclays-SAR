@@ -1,0 +1,25 @@
+llm:
+  model: "llama3.1:8b"
+  temperature: 0.3
+  max_tokens: 2000
+  base_url: "http://localhost:11434"
+
+database:
+  type: "sqlite"
+  sqlite_path: "./data/sar_engine.db"
+
+chromadb:
+  persist_directory: "./chroma_db"
+  collection_name: "sar_templates"
+
+app:
+  title: "SAR Narrative Generator"
+  port: 8501
+  debug: false
+  log_level: "INFO"
+
+security:
+  anonymize_pii: true
+  max_input_length: 10000000
+  max_transactions: 50000
+  jwt_secret: "${JWT_SECRET}"

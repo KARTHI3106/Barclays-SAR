@@ -1,0 +1,91 @@
+{
+  "structuring": {
+    "name": "Structuring / Smurfing",
+    "description": "Breaking large amounts into smaller deposits below reporting thresholds to avoid detection",
+    "indicators": [
+      "Multiple deposits just below INR 10,00,000 threshold",
+      "Regular pattern of sub-threshold deposits",
+      "Multiple deposits on same day or consecutive days",
+      "Round-number deposits",
+      "Multiple branches used for deposits"
+    ],
+    "pmla_reference": "Section 12 of PMLA, 2002 - Obligation to furnish information of prescribed transactions",
+    "rbi_reference": "RBI Master Direction on KYC - Cash Transaction Reporting"
+  },
+  "layering": {
+    "name": "Layering",
+    "description": "Moving money through multiple accounts and financial instruments to obscure the trail",
+    "indicators": [
+      "Rapid transfers between multiple accounts",
+      "Use of intermediary accounts with no apparent business purpose",
+      "Complex web of transactions designed to break the audit trail",
+      "Multiple transfers within 24-48 hours",
+      "Cross-border transfers to high-risk jurisdictions"
+    ],
+    "pmla_reference": "Section 3 of PMLA, 2002 - Offence of money laundering",
+    "rbi_reference": "RBI Guidelines on Wire Transfer Regulations"
+  },
+  "wire_fraud": {
+    "name": "Wire Fraud / Cross-Border Transfer",
+    "description": "Suspicious wire transfers especially to high-risk jurisdictions",
+    "indicators": [
+      "Large outward remittances inconsistent with income",
+      "Transfers to FATF grey/blacklist jurisdictions",
+      "No clear business purpose for transfers",
+      "Rapid movement of funds after receipt",
+      "Trade-based money laundering indicators"
+    ],
+    "pmla_reference": "Section 3 read with Section 12 of PMLA, 2002",
+    "rbi_reference": "RBI Master Direction on Remittances"
+  },
+  "cash_business": {
+    "name": "Cash-Intensive Business Fraud",
+    "description": "Suspicious cash transactions from businesses claiming cash-intensive operations",
+    "indicators": [
+      "Cash volumes exceeding industry norms",
+      "No corresponding business growth indicators",
+      "Deposits inconsistent with business type/season",
+      "Immediate electronic transfers after cash deposits",
+      "Multiple currency denominations"
+    ],
+    "pmla_reference": "Section 12(1)(b) of PMLA, 2002 - Suspicious transaction reporting",
+    "rbi_reference": "RBI Circular on Cash Deposit Monitoring"
+  },
+  "identity_theft": {
+    "name": "Identity Theft / Synthetic Identity",
+    "description": "Accounts opened using stolen or fabricated identity documents",
+    "indicators": [
+      "KYC document discrepancies",
+      "Multiple accounts with similar patterns",
+      "Accounts used primarily as pass-through",
+      "Failed verification attempts",
+      "IP/device fingerprint anomalies"
+    ],
+    "pmla_reference": "Section 12(1)(a) of PMLA, 2002",
+    "rbi_reference": "RBI Master Direction on KYC - Customer Identification"
+  },
+  "rapid_movement": {
+    "name": "Rapid Movement of Funds",
+    "description": "Funds moved immediately after receipt, suggesting pass-through activity",
+    "indicators": [
+      "Credits and debits within same day",
+      "No holding period for received funds",
+      "Account used as transit point",
+      "Large credits immediately followed by large debits"
+    ],
+    "pmla_reference": "Section 3 of PMLA, 2002",
+    "rbi_reference": "RBI Alert List Monitoring Guidelines"
+  },
+  "round_tripping": {
+    "name": "Round-Tripping",
+    "description": "Sending money abroad and bringing it back as foreign investment",
+    "indicators": [
+      "Outward remittance followed by inward investment",
+      "Same jurisdiction for both transactions",
+      "Circular flow of funds",
+      "FDI/FII from tax haven jurisdictions"
+    ],
+    "pmla_reference": "Section 3 of PMLA, 2002 read with FEMA regulations",
+    "rbi_reference": "RBI Guidelines on FDI Reporting"
+  }
+}

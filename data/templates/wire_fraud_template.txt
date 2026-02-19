@@ -1,0 +1,26 @@
+SUSPICIOUS TRANSACTION REPORT - WIRE FRAUD / CROSS-BORDER
+
+I. SUMMARY OF SUSPICIOUS ACTIVITY
+This report is filed regarding suspicious wire transfer activity identified in the account of [CUSTOMER_NAME]. Outward remittances totaling [CURRENCY] [AMOUNT] were made to [DESTINATION_COUNTRY] through [TRANSFER_TYPE], which is inconsistent with the account holder's declared business activities and income profile.
+
+II. ACCOUNT AND CUSTOMER INFORMATION
+[Customer details]
+
+III. DESCRIPTION OF SUSPICIOUS ACTIVITY
+The following wire transfer activities were identified:
+- [WIRE_TRANSFER_DETAILS]
+- Total outward remittance: [CURRENCY] [AMOUNT]
+- Destination: [BANK], [COUNTRY]
+- Purpose stated: [PURPOSE]
+- Deviation from stated purpose or business activity
+
+IV. EXPLANATION OF SUSPICION
+The wire transfer pattern raises concerns under multiple regulatory frameworks:
+- Transaction volume inconsistent with declared business activity
+- Destination to jurisdiction with enhanced AML monitoring requirements
+- Pattern of transfers suggests capital flight or trade-based money laundering
+- No corresponding business justification for the volume of outward remittances
+- Potential violation of FEMA regulations on outward remittances
+
+V. CONCLUSION AND RECOMMENDATION
+This activity warrants STR filing with FIU-IND and investigation for potential FEMA violations. Cross-border cooperation may be required. Enhanced monitoring of all accounts associated with this customer is recommended.

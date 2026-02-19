@@ -1,0 +1,25 @@
+SUSPICIOUS TRANSACTION REPORT - LAYERING
+
+I. SUMMARY OF SUSPICIOUS ACTIVITY
+This report concerns complex multi-layered transactions involving the account of [CUSTOMER_NAME] (Account: [ACCOUNT_NUMBER]). A total of [COUNT] transactions totaling INR [TOTAL_AMOUNT] were identified involving [UNIQUE_SOURCES] unique originating accounts and rapid transfers designed to obscure the origin and destination of funds.
+
+II. ACCOUNT AND CUSTOMER INFORMATION
+[Customer details]
+
+III. DESCRIPTION OF SUSPICIOUS ACTIVITY
+The following multi-layered transaction pattern was identified:
+- [COUNT] credits from [UNIQUE_SOURCES] unique sources
+- Funds received and transferred within [HOURS] hours
+- Transfer chain: [SOURCE] → Subject Account → [DESTINATION]
+- Use of multiple intermediary accounts
+
+IV. EXPLANATION OF SUSPICION
+The transaction pattern is consistent with the layering stage of money laundering as defined under Section 3 of PMLA, 2002. Key indicators:
+- Multiple incoming transfers from diverse, previously unrelated accounts
+- Rapid consolidation and onward transfer (within 24-48 hours)
+- Transaction volumes significantly exceeding declared income and expected activity
+- Use of [TRANSFER_TYPES] for rapid cross-border movement
+- Destination jurisdiction [JURISDICTION] is on FATF increased monitoring list
+
+V. CONCLUSION AND RECOMMENDATION
+This activity is strongly indicative of money laundering through layering. Immediate STR filing with FIU-IND is recommended under Section 12 of PMLA, 2002. Account suspension and enhanced monitoring should be considered pending investigation completion.

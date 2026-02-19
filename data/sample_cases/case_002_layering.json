@@ -1,0 +1,128 @@
+{
+  "case_id": "STR-2026-002",
+  "customer": {
+    "name": "Vikram Mehta",
+    "account_number": "CA-2022-4456789",
+    "kyc_risk_rating": "High",
+    "occupation": "Import-Export Business",
+    "account_open_date": "2022-08-20",
+    "expected_monthly_volume": 1500000,
+    "declared_income": 2400000,
+    "address": "12/A, Nariman Point, Mumbai, Maharashtra",
+    "pan_number": "AGHPM5678L"
+  },
+  "transactions": [
+    {
+      "date": "2026-01-10",
+      "amount": 2500000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "ABC Trading Co.",
+      "beneficiary": "Vikram Mehta",
+      "description": "Trade payment"
+    },
+    {
+      "date": "2026-01-10",
+      "amount": 1800000,
+      "currency": "INR",
+      "type": "RTGS",
+      "originator": "XYZ Imports Ltd.",
+      "beneficiary": "Vikram Mehta",
+      "description": "Invoice payment"
+    },
+    {
+      "date": "2026-01-11",
+      "amount": -3000000,
+      "currency": "INR",
+      "type": "Wire Transfer",
+      "originator": "Vikram Mehta",
+      "beneficiary": "Global Ventures FZE, Dubai",
+      "description": "Trade advance"
+    },
+    {
+      "date": "2026-01-12",
+      "amount": 3200000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "MNO Enterprises",
+      "beneficiary": "Vikram Mehta",
+      "description": "Goods payment"
+    },
+    {
+      "date": "2026-01-12",
+      "amount": 1500000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "PQR Industries",
+      "beneficiary": "Vikram Mehta",
+      "description": "Service payment"
+    },
+    {
+      "date": "2026-01-13",
+      "amount": -4500000,
+      "currency": "INR",
+      "type": "SWIFT",
+      "originator": "Vikram Mehta",
+      "beneficiary": "Eastern Trading LLC, Hong Kong",
+      "description": "Import payment"
+    },
+    {
+      "date": "2026-01-15",
+      "amount": 2800000,
+      "currency": "INR",
+      "type": "RTGS",
+      "originator": "DEF Solutions Pvt Ltd",
+      "beneficiary": "Vikram Mehta",
+      "description": "Contract payment"
+    },
+    {
+      "date": "2026-01-15",
+      "amount": 2200000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "GHI Logistics",
+      "beneficiary": "Vikram Mehta",
+      "description": "Freight charges"
+    },
+    {
+      "date": "2026-01-16",
+      "amount": -5000000,
+      "currency": "INR",
+      "type": "SWIFT",
+      "originator": "Vikram Mehta",
+      "beneficiary": "Pacific Holdings, Singapore",
+      "description": "Investment"
+    },
+    {
+      "date": "2026-01-18",
+      "amount": 1900000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "JKL Traders",
+      "beneficiary": "Vikram Mehta",
+      "description": "Trade settlement"
+    },
+    {
+      "date": "2026-01-19",
+      "amount": -1500000,
+      "currency": "INR",
+      "type": "Wire Transfer",
+      "originator": "Vikram Mehta",
+      "beneficiary": "Crescent Enterprises, UAE",
+      "description": "Advance payment"
+    },
+    {
+      "date": "2026-01-20",
+      "amount": 3500000,
+      "currency": "INR",
+      "type": "RTGS",
+      "originator": "STU Manufacturing",
+      "beneficiary": "Vikram Mehta",
+      "description": "Bulk order payment"
+    }
+  ],
+  "alert_reason": "Multiple large incoming transfers from diverse entities followed by rapid outward SWIFT/Wire transfers to Dubai, Hong Kong, and Singapore. Total outward: INR 1,40,00,000 in 10 days.",
+  "investigation_notes": "Import-Export license verification shows limited trading activity. Most originating entities are newly incorporated (within last 6 months). Destination entities in UAE and Hong Kong are registered at virtual office addresses.",
+  "alert_date": "2026-01-21",
+  "assigned_analyst": "analyst_02"
+}

@@ -1,0 +1,24 @@
+SUSPICIOUS TRANSACTION REPORT - IDENTITY THEFT / SYNTHETIC IDENTITY
+
+I. SUMMARY OF SUSPICIOUS ACTIVITY
+The account [ACCOUNT_NUMBER] in the name of [CUSTOMER_NAME] is suspected of being opened using stolen or synthetic identity documents. Transaction patterns and identity verification discrepancies suggest this account may be used as a conduit for fraudulent activity.
+
+II. ACCOUNT AND CUSTOMER INFORMATION
+[Customer details with identity discrepancy notes]
+
+III. DESCRIPTION OF SUSPICIOUS ACTIVITY
+Identity-related suspicious indicators:
+- KYC document discrepancies: [DETAILS]
+- Account activity inconsistent with declared profile
+- Multiple failed verification attempts
+- Transactions to known fraud-associated accounts
+
+IV. EXPLANATION OF SUSPICION
+This account exhibits indicators of identity-based fraud:
+- KYC documentation discrepancies suggest possible synthetic identity
+- Transaction patterns inconsistent with customer profile
+- Account used primarily as pass-through for funds
+- Linked to accounts with prior fraud investigations
+
+V. CONCLUSION AND RECOMMENDATION
+STR filing recommended. Identity verification review required. Account should be placed on hold pending investigation. Report to RBI under fraud reporting framework. Consider filing FIR if evidence supports identity theft.

@@ -1,0 +1,452 @@
+{
+  "case_id": "STR-2026-DEMO-50L",
+  "customer": {
+    "name": "Rajesh Kumar Agarwal",
+    "account_number": "SB-2021-3344556",
+    "kyc_risk_rating": "Medium",
+    "occupation": "Software Consultant",
+    "account_open_date": "2021-06-10",
+    "expected_monthly_volume": 300000,
+    "declared_income": 1800000,
+    "address": "B-204, Prestige Towers, Whitefield, Bengaluru, Karnataka 560066",
+    "pan_number": "ABCPA9876D"
+  },
+  "transactions": [
+    {
+      "date": "2026-02-01",
+      "amount": 95000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1001",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer from unknown"
+    },
+    {
+      "date": "2026-02-01",
+      "amount": 120000,
+      "currency": "INR",
+      "type": "UPI",
+      "originator": "Acct-XX1002",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "UPI transfer"
+    },
+    {
+      "date": "2026-02-01",
+      "amount": 85000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1003",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-02",
+      "amount": 150000,
+      "currency": "INR",
+      "type": "RTGS",
+      "originator": "Acct-XX1004",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Fund transfer"
+    },
+    {
+      "date": "2026-02-02",
+      "amount": 110000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1005",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-02",
+      "amount": 98000,
+      "currency": "INR",
+      "type": "UPI",
+      "originator": "Acct-XX1006",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "UPI payment"
+    },
+    {
+      "date": "2026-02-02",
+      "amount": 175000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1007",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-03",
+      "amount": 130000,
+      "currency": "INR",
+      "type": "RTGS",
+      "originator": "Acct-XX1008",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Fund transfer"
+    },
+    {
+      "date": "2026-02-03",
+      "amount": 88000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1009",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-03",
+      "amount": 142000,
+      "currency": "INR",
+      "type": "UPI",
+      "originator": "Acct-XX1010",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "UPI transfer"
+    },
+    {
+      "date": "2026-02-03",
+      "amount": 105000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1011",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-04",
+      "amount": 160000,
+      "currency": "INR",
+      "type": "RTGS",
+      "originator": "Acct-XX1012",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Fund transfer"
+    },
+    {
+      "date": "2026-02-04",
+      "amount": 92000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1013",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-04",
+      "amount": 118000,
+      "currency": "INR",
+      "type": "UPI",
+      "originator": "Acct-XX1014",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "UPI payment"
+    },
+    {
+      "date": "2026-02-04",
+      "amount": 135000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1015",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-05",
+      "amount": 148000,
+      "currency": "INR",
+      "type": "RTGS",
+      "originator": "Acct-XX1016",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Fund transfer"
+    },
+    {
+      "date": "2026-02-05",
+      "amount": 82000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1017",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-05",
+      "amount": 155000,
+      "currency": "INR",
+      "type": "UPI",
+      "originator": "Acct-XX1018",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "UPI transfer"
+    },
+    {
+      "date": "2026-02-05",
+      "amount": 99000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1019",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-05",
+      "amount": 125000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1020",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-06",
+      "amount": 102000,
+      "currency": "INR",
+      "type": "UPI",
+      "originator": "Acct-XX1021",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "UPI payment"
+    },
+    {
+      "date": "2026-02-06",
+      "amount": 168000,
+      "currency": "INR",
+      "type": "RTGS",
+      "originator": "Acct-XX1022",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Fund transfer"
+    },
+    {
+      "date": "2026-02-06",
+      "amount": 91000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1023",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-06",
+      "amount": 137000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1024",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-06",
+      "amount": 113000,
+      "currency": "INR",
+      "type": "UPI",
+      "originator": "Acct-XX1025",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "UPI transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 145000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1026",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 87000,
+      "currency": "INR",
+      "type": "UPI",
+      "originator": "Acct-XX1027",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "UPI payment"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 156000,
+      "currency": "INR",
+      "type": "RTGS",
+      "originator": "Acct-XX1028",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Fund transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 108000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1029",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 93000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1030",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 128000,
+      "currency": "INR",
+      "type": "UPI",
+      "originator": "Acct-XX1031",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "UPI transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 165000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1032",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 115000,
+      "currency": "INR",
+      "type": "RTGS",
+      "originator": "Acct-XX1033",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Fund transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 97000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1034",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 140000,
+      "currency": "INR",
+      "type": "UPI",
+      "originator": "Acct-XX1035",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "UPI payment"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 82000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1036",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 119000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1037",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 153000,
+      "currency": "INR",
+      "type": "RTGS",
+      "originator": "Acct-XX1038",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Fund transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 88000,
+      "currency": "INR",
+      "type": "UPI",
+      "originator": "Acct-XX1039",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "UPI transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 132000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1040",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 106000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1041",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 147000,
+      "currency": "INR",
+      "type": "RTGS",
+      "originator": "Acct-XX1042",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Fund transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 94000,
+      "currency": "INR",
+      "type": "UPI",
+      "originator": "Acct-XX1043",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "UPI payment"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 161000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1044",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 85000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1045",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 123000,
+      "currency": "INR",
+      "type": "UPI",
+      "originator": "Acct-XX1046",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "UPI transfer"
+    },
+    {
+      "date": "2026-02-07",
+      "amount": 139000,
+      "currency": "INR",
+      "type": "NEFT",
+      "originator": "Acct-XX1047",
+      "beneficiary": "Rajesh Kumar Agarwal",
+      "description": "Transfer"
+    },
+    {
+      "date": "2026-02-08",
+      "amount": -5000000,
+      "currency": "INR",
+      "type": "SWIFT",
+      "originator": "Rajesh Kumar Agarwal",
+      "beneficiary": "Oceanic Holdings Ltd, Mauritius",
+      "description": "Investment in overseas entity"
+    }
+  ],
+  "alert_reason": "Customer received INR 50,00,000+ from 47 different accounts in one week (Feb 1-7, 2026). Immediately transferred entire balance abroad via SWIFT to Mauritius. Customer is a software consultant with declared monthly income of INR 1,50,000. This represents a 16.7x deviation from expected monthly volume.",
+  "investigation_notes": "47 originating accounts traced — 30 were opened within the last 90 days with minimal prior activity. The beneficiary entity 'Oceanic Holdings Ltd' in Mauritius is registered at a virtual office address. Customer has no documented business relationship with any of the 47 originating account holders. FATF: Mauritius was on the grey list until October 2021. The rapid consolidation and offshore transfer pattern is consistent with layering in money laundering.",
+  "alert_date": "2026-02-09",
+  "assigned_analyst": "analyst_01"
+}
