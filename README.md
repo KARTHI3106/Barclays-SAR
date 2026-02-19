@@ -8,13 +8,93 @@ Built for Indian regulatory compliance (PMLA, 2002 / RBI Master Directions / FIU
 
 ## Architecture
 
-```text
-Input JSON --> DataParser --> RAG Engine --> LLM Orchestrator --> SAR Narrative
-                  |              |               |                    |
-                  v              v               v                    v
-             Patterns      Templates      Ollama/Llama 3.1     5-Section STR
-                  |              |               |                    |
-                  +---------- Audit Logger (SQLite, 7-layer) --------+
+```mermaid
+---
+config:
+  theme: redux-dark-color
+---
+flowchart TD
+    %% ── INPUT ──────────────────────────────────────────────
+    subgraph INPUT["INPUT LAYER"]
+        A["JSON Case Input (Customer + Transactions)"]
+        B["Pydantic Validator (Schema + Field Checks)"]
+    end
+
+    %% ── PROCESSING ──────────────────────────────────────────
+    subgraph PROCESSING["PROCESSING LAYER"]
+        C["DataParser (9 Pattern Detectors, Risk Scorer)"]
+        D["RAG Engine (ChromaDB Vector DB, Template Retrieval)"]
+        E["LLM Orchestrator (Ollama / Llama 3.1 8B, Prompt Builder)"]
+    end
+
+    %% ── MCP TOOL SERVERS ────────────────────────────────────
+    subgraph MCP["MCP TOOL SERVERS"]
+        F["TransactionAnalyzer (analyze_transactions, calculate_baseline, classify_typology)"]
+        G["SARTemplateEngine (retrieve_templates, generate_narrative, get_regulatory_context)"]
+        H["AuditTrailManager (log_decision, get_audit_trail, export_audit)"]
+    end
+
+    %% ── A2A AGENTS ──────────────────────────────────────────
+    subgraph A2A["A2A MULTI-AGENT PIPELINE"]
+        I["CoordinatorAgent"]
+        J["DataEnrichmentAgent"]
+        K["TypologyAgent"]
+        L["NarrativeAgent"]
+        M["AuditAgent"]
+    end
+
+    %% ── OUTPUT ──────────────────────────────────────────────
+    subgraph OUTPUT["OUTPUT LAYER"]
+        N["SAR Narrative (5-Section STR Report)"]
+        O["Explainability (Risk Score + Patterns)"]
+        P["Audit Trail (7-Layer Decision Log)"]
+    end
+
+    %% ── STORAGE ─────────────────────────────────────────────
+    subgraph STORAGE["STORAGE"]
+        Q["SQLite (Audit Events + Cases)"]
+        R["ChromaDB (SAR Templates + Typologies)"]
+    end
+
+    %% ── ANALYST UI ──────────────────────────────────────────
+    UI["Streamlit UI (Analyst Dashboard)"]
+
+    %% ── MAIN PIPELINE FLOW ──────────────────────────────────
+    UI -->|"Load Case / Paste JSON"| A
+    A --> B --> C
+    C --> D --> E
+    E --> N
+    E --> O
+    C --> P
+    D --> P
+    E --> P
+
+    %% ── MCP BINDINGS ────────────────────────────────────────
+    C -..->|"MCP Tool"| F
+    D -..->|"MCP Tool"| G
+    P -..->|"MCP Tool"| H
+
+    %% ── A2A PIPELINE ────────────────────────────────────────
+    I --> J --> K --> L --> M
+    M --> P
+
+    %% ── STORAGE BINDINGS ────────────────────────────────────
+    P --> Q
+    D --> R
+
+    %% ── ANALYST REVIEW ──────────────────────────────────────
+    N -->|"Edit + Approve"| UI
+    O --> UI
+    P --> UI
+
+    %% ── STYLES ──────────────────────────────────────────────
+    style INPUT      fill:#1e3a5f,stroke:#3b82f6,color:#fff
+    style PROCESSING fill:#1e3a5f,stroke:#3b82f6,color:#fff
+    style MCP        fill:#1a3a2e,stroke:#22c55e,color:#fff
+    style A2A        fill:#3a1a3e,stroke:#a855f7,color:#fff
+    style OUTPUT     fill:#3a2a1a,stroke:#f59e0b,color:#fff
+    style STORAGE    fill:#2a2a2a,stroke:#6b7280,color:#fff
+    style UI         fill:#1e293b,stroke:#64748b,color:#fff
 ```
 
 ### MCP Tool Servers (3 servers, 9 tools)
